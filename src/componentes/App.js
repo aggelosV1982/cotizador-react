@@ -65,9 +65,13 @@ class App extends Component {
           <Formulario 
             cotizarSeguro={this.cotizarSeguro}
           />
+
           <Resumen 
             datos={this.state.datos}
-            rasultado={this.state.resultado} />
+            resultado={this.state.resultado} />
+
+          <Resultado 
+            resultado={this.state.resultado} />
         </div>
       </div>
     );

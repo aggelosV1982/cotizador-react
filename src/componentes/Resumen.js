@@ -13,6 +13,9 @@ class Resumen extends Component {
     mostrarResumen = () => {
         const {marca, year, plan} = this.props.datos;
 
+        console.log(this.props.resultado);
+        
+
         if(!marca || !year || !plan) return null;
         return (
             <div className="resumen">
