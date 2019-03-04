@@ -68,7 +68,7 @@ class Formulario extends Component {
                 </div>
                 <div className="campo">
                     <label>Plan:</label>
-                    <input type="radio" name="plan" value="basico" ref={this.planBasicoRef} /> Básico
+                    <input type="radio" name="plan" value="basico" ref={this.planBasicoRef} defaultChecked /> Básico
                     <input type="radio" name="plan" value="completo" ref={this.planCompletoRef} /> Completo
                 </div>
 
